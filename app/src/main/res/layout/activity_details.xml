@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/input_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер касеты"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/input_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Содержание"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/input_dateRecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата записи"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/input_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/input_number_shelf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер полки "
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+
+ <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/input_type_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="где хранится "
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/input_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ФИО прокатчика"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/input_passport_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Паспортные данные"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/input_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Сумма  взноса за прокат "
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/input_count_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество дней проката"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+    </LinearLayout>
+
+</ScrollView>
